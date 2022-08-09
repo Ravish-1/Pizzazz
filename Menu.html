@@ -1,0 +1,251 @@
+<html>
+<head>
+<title>Menu</title>
+</head>
+<style>
+*{padding: 0; margin:0; box-sizing: border-box; font-family: sans-serif;
+		}
+		
+		header{
+			width: 100%;
+			height: 100vh;
+			
+			position: relative;
+		}
+		nav{
+			width: 100%;
+			height: 70px;
+			padding: 0px 70px;
+			background: white;
+			color: black;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			box-shadow: 2px 0px 5px grey;
+		}
+		.main {
+  width: 1170px;
+  margin: 100px auto;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.section-title h2 {
+  text-transform: capitalize;
+  font-size: 35px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.section-title h2:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: red;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menus {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu-column {
+  width: 31%;
+}
+.menu-column h4 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.menu-column h4:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color:red;
+  bottom: 0;
+}
+.single-menu {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.single-menu .menu-content h5 {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+  border-bottom: 1px dashed #222;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+.single-menu .menu-content h5 span {
+  color: red;
+  float: right;
+  font-weight: 600;
+  font-style: italic;
+padding:0px 20px
+}
+.single-menu .menu-content .list{
+list-style-position:inside;
+;
+}
+		.logo{
+			font-weight: bold;
+			font-size: 2em;
+			letter-spacing: 2px;
+		}
+		.logo span{
+			color: red;
+		}
+		.menu a{
+		margin:5px;
+		padding:10px 25px;
+		text-decoration: none;
+		background: brown;
+		border-radius: 8px;
+		color:white;
+	transition:0.5s ease
+		
+                        }
+		.menu a:hover{
+		padding:15px 30px;
+		border-radius:15px;
+		transition:1s ease
+		
+.h-text{
+			position: absolute;
+			top:30%;
+			left: 5%;
+			padding: 65px;
+
+		}
+
+</style>
+<body>
+	<header>
+	<nav>
+		<div class="logo"><span>Pi</span>zza<span>zz</span></div>
+		<div class="menu">
+		
+			
+				<a href="MyWEBPAGE.html">Home</a>
+			<a href="Menu.html">Menu</a>
+			<a href="Company.html">Companies</a>
+			<a href="index.html">Game</a>
+			<a href="#">Delivery</a>
+			<a href="#">Cart</a>
+		</div>
+	</nav>
+<div class="main">
+        <div class="section-title">
+            <h2>our menu</h2>
+          
+        </div>
+        <div class="menus">
+            <div class="menu-column">
+                <h4>Veg Pizzas</h4>
+                <div class="single-menu">
+                    
+                    <div class="menu-content">
+                        <h5>Panner Chilli Pizza <span> $50</span></h5>
+                     <ul class="list"> 
+			<li>paneer</li>
+		</ul>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    
+                    <div class="menu-content">
+                        <h5>Mushroom Pizza<span> $50</span></h5>
+                   <ul class="list"> 
+			<li>mushroom</li>
+		</ul>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    
+                    <div class="menu-content">
+                        <h5> Cheese n Corn Pizza<span> $50</span></h5>
+                     <ul class="list"> 
+			<li>corn</li>
+		</ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-column">
+                <h4>Non Veg Pizzas </h4>
+                <div class="single-menu">
+                    
+                    <div class="menu-content">
+                        <h5>Chicken taco pizza <span> $50</span></h5>
+			<ul class="list"> 
+			<li>taco</li>
+		</ul>
+                    </div>
+                </div>
+                <div class="single-menu">
+                 
+                    <div class="menu-content">
+                        <h5>Thai chicken pizza<span> $50</span></h5>
+                      <ul class="list"> 
+			<li>thai style</li>
+		</ul>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    
+                    <div class="menu-content">
+                        <h5>BBQ chicken pizza <span> $50</span></h5>
+                     <ul class="list"> 
+			<li>barbeque</li>
+		</ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-column">
+                <h4>Special Pizzas</h4>
+                <div class="single-menu">
+                   
+                    <div class="menu-content">
+                        <h5>Four Cheese Pizza <span>$50</span></h5>
+                    <ul class="list"> 
+			<li>extra cheese</li>
+		</ul>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    
+                    <div class="menu-content">
+                        <h5>Spice Pasta Pizza<span>$50</span></h5>
+                      <ul class="list"> 
+			<li>pasta</li>
+		</ul>
+                    </div>
+                </div>
+                <div class="single-menu">
+                
+                    <div class="menu-content">
+                        <h5>Spicy Mexican <span>$50</span></h5>
+                        <ul class="list"> 
+			<li>mexican style</li>
+		</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+</body>
+</html>
